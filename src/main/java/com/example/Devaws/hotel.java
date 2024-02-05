@@ -8,6 +8,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class hotel {
 
 
-    @GetMapping ("/hotel"):
-    public String getData() {return "please Ebook your Hotel @60% free of cost Thank you " ; }
+    @GetMapping ("/hotel")
+    public String getData() {return "please ebook your hotel @40% free of cost Thank you " ; }
 }
