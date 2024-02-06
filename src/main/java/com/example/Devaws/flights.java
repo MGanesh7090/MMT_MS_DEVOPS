@@ -9,5 +9,5 @@ public class flights {
 
 
     @GetMapping ("/flights")
-    public String getData() {return "please ebook your flights @40% free of cost Thank you " ; }
+    public String getData() {return "please EEbook your flights @40% free of cost Thank you " ; }
 }
