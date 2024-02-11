@@ -5,9 +5,9 @@ import org.springframework.web.bind.annotation.RestController;
 
 
 @RestController
-public class flights {
+public class holiday {
 
 
-    @GetMapping ("/flights")
-    public String getData() {return "please Ebook your Flights @40% free of cost Thank you " ; }
+    @GetMapping ("/holiday")
+    public String getData() {return "please ebook your train @40% free of cost Thank you " ; }
 }
