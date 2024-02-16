@@ -1,0 +1,18 @@
+warning: in the working copy of 'pom.xml', LF will be replaced by CRLF the next time Git touches it
+[1mdiff --git a/pom.xml b/pom.xml[m
+[1mindex 4747ad9..21171a9 100644[m
+[1m--- a/pom.xml[m
+[1m+++ b/pom.xml[m
+[36m@@ -15,12 +15,6 @@[m
+ 	<description>Demo project for Spring Boot</description>[m
+ 	<properties>[m
+ 		<java.version>17</java.version>[m
+[31m-		<maven.spotify.plugin.version>1.1.0</maven.spotify.plugin.version>[m
+[31m-		<maven.surefire.plugin.version>2.20</maven.surefire.plugin.version>[m
+[31m-		<maven.compiler.plugin.version>3.6.1</maven.compiler.plugin.version>[m
+[31m-		<sonar.maven.plugin.version>3.0.2</sonar.maven.plugin.version>[m
+[31m-		<docker.maven.plugin.version>1.0.0</docker.maven.plugin.version>[m
+[31m-		<jacoco.maven.plugin.version>0.8.0</jacoco.maven.plugin.version>[m
+ 	</properties>[m
+ 	<dependencies>[m
+ 		<dependency>[m
