@@ -11,16 +11,10 @@
 	<groupId>com.example</groupId>
 	<artifactId>Dev-aws</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>Dev-aws</name>
+	<name>Dev-aws</name>wq:wq
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>17</java.version>
-		<maven.spotify.plugin.version>1.1.0</maven.spotify.plugin.version>
-		<maven.surefire.plugin.version>2.20</maven.surefire.plugin.version>
-		<maven.compiler.plugin.version>3.6.1</maven.compiler.plugin.version>
-		<sonar.maven.plugin.version>3.0.2</sonar.maven.plugin.version>
-		<docker.maven.plugin.version>1.0.0</docker.maven.plugin.version>
-		<jacoco.maven.plugin.version>0.8.0</jacoco.maven.plugin.version>
 	</properties>
 	<dependencies>
 		<dependency>
