@@ -5,6 +5,10 @@ pipeline {
 
     agent any
 
+    tools {
+        'maven_3.9.6'
+    }
+
     stages {
         stage('Code Compilation') {
             steps {
