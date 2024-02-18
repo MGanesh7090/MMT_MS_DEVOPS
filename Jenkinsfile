@@ -6,30 +6,30 @@ pipeline {
     agent any
 
     tools {
-        'maven_3.9.6'
+        maven 'maven_3.9.6'
     }
 
     stages {
         stage('Code Compilation') {
             steps {
                 echo 'Code Compilation is In Progress!'
-                sh 'mvn clean compile'
-                echo 'Code Compilation is Completed Successfully!'
+                sh 'mvn clean package'
+                echo 'Code Compilation is Completed Successfully!..'
             }
         }
         stage('Code QA Execution') {
             steps {
-                echo 'Junit Test case check in Progress!'
+                echo 'Junit Test case check in Progress!..'
                 sh 'mvn clean test'
                 echo 'Junit Test case check Completed!'
             }
         }
         stage('Code Package') {
             steps {
-                echo 'Creating Jar Artifact..'
+                echo 'Creating War Artifact..'
                 sh 'mvn clean package'
-                echo 'Creating Jar Artifact done'
+                echo 'Creating War Artifact done'
             }
         }
-    }
+	}
 }
